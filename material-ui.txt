@@ -1,0 +1,6 @@
+Card: To create the Card
+CardHeader: To give heading to Card
+CardContent: To give the content to card
+Typography: To add any text
+Grid: To create the grid layout
+Divider: To create the divider line
