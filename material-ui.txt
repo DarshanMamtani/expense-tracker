@@ -4,3 +4,10 @@ CardContent: To give the content to card
 Typography: To add any text
 Grid: To create the grid layout
 Divider: To create the divider line
+FormControl: to create forms
+Select: To create dropdown i.e. normal html select.
+MenuItem: Dropdown items
+InputLabel: Normal html labels
+List: To create a List
+ListItem: List Items
+Slide: Create the sliding animation

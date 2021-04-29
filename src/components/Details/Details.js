@@ -11,7 +11,7 @@ const Details = ({ type }) => {
         <Card className={type === "Income" ?  classes.income : classes.expense}>
             <CardHeader title={type} />
             <CardContent>
-                <Typography variant="h5">Rs. 50</Typography>
+                <Typography variant="h5">₹50</Typography>
                 <Doughnut />
             </CardContent>
         </Card>
