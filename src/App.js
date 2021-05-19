@@ -10,13 +10,21 @@ const App = () => {
     return (
         <div>
             <Grid className={classes.grid} container spacing={0} alignItems="center" justify="center" style={{ height: '100vh' }}>
-                <Grid items xs={12} sm={3}>
+                {/* This grid will be shown be hidded in mobile */}
+                <Grid item xs={12} sm={3} className={classes.mobile} >
                     <Details type="Income"/>
                 </Grid>
-                <Grid items xs={12} sm={3}>
+
+                <Grid item xs={12} sm={4}>
                     <Main />
                 </Grid>
-                <Grid items xs={12} sm={3}>
+
+                {/* This grid will be shown be hidded in mobile */}
+                <Grid item xs={12} sm={3} className={classes.desktop} >
+                    <Details type="Income"/>
+                </Grid>
+
+                <Grid item xs={12} sm={3} className={classes.last}>
                     <Details type="Expense" />
                 </Grid>
 
